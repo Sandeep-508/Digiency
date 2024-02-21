@@ -594,3 +594,46 @@ p {
     height: 2px;
     background-color: white;
 }
+
+.copy {
+    font-family: var(--work);
+    font-size: var(--font-size-16);
+    line-height: var(--font-size-25);
+    color: white;
+}
+
+.terms {
+    font-family: var(--poppins);
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-16);
+    line-height: var(--lh-24);
+}
+
+
+
+/* scroll bar changes */
+
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar:hover {
+    background-color: rgba(0, 255, 255, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    /* background: #00FFFF; */
+    background-color: var(--orange-color);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #00FFFF;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6EFFFF;
+}

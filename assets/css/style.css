@@ -473,3 +473,66 @@ p {
 .bg-orange {
     background-color: var(--orange-color);
 }
+
+@media (min-width: 992px) {
+    .brdr-r-992 {
+        border-right: 3px solid white;
+    }
+}
+
+@media (max-width: 991.9px) and (min-width: 768px) {
+    .brdr-r-max {
+        border-right: 3px solid white;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+    .hor_line {
+        top: 50%;
+        width: 100%;
+        height: 3px;
+        background-color: white;
+    }
+
+    .ver_line {
+        left: 50%;
+        width: 3px;
+        height: 100%;
+        background-color: white;
+    }
+}
+
+.transition {
+    transition: all 300ms linear;
+}
+
+
+.text {
+    font-family: var(--work);
+    font-size: 10px;
+    line-height: 19px;
+}
+
+.read {
+    font-family: var(--work);
+    font-size: var(--font-size-20);
+    line-height: var(--lh-24);
+    background-color: var(--orange-color);
+    color: white;
+}
+
+.read:hover {
+    background-color: white;
+    color: var(--orange-color);
+}
+
+.opac_0 {
+    opacity: 0;
+    transition: all 300ms linear;
+}
+
+.add_hover:hover {
+    .opac_1 {
+        opacity: 1 !important;
+    }
+}

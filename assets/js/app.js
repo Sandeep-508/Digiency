@@ -11,3 +11,4 @@ function changeFilter(clickedFilter) {
     filters.forEach(filter => filter.classList.remove('Color_change'));
     clickedFilter.classList.add('Color_change');
 }
+
